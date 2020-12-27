@@ -29,8 +29,8 @@
 	"scripts": {
 		"fontawesomeSetup": "node fetchFontawesomeData",
 		"start": "npm run fontawesomeSetup && cross-env BROWSER=none react-scripts start",
-		"build": "npm run fontaweseomeSetup && react-scripts build",
-		"test": "npm run fontaweseomeSetup && react-scripts test",
+		"build": "npm run fontawesomeSetup && react-scripts build",
+		"test": "npm run fontawesomeSetup && react-scripts test",
 		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {
