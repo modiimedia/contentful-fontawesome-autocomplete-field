@@ -1,10 +1,49 @@
 html,
 body,
 div {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.flex {
+	display: flex;
+	display: flexbox;
+	display: -ms-flexbox;
+	display: -ms-flexbox;
+}
+
+.inline-flex {
+	display: inline-flex;
+	display: inline-flexbox;
+	display: -ms-inline-flexbox;
+	display: -ms-inline-flexbox;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.items-center {
+	align-items: center;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.hover-background {
+	cursor: pointer;
+	border: 1px solid #e5ebed;
+}
+
+.hover-background:hover {
+	background: #e5ebed;
 }
