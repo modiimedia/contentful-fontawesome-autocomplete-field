@@ -1,31 +1,39 @@
+# Font Awesome Autocomplete Field
+
+Text field app that makes it easy for editors to pick fontawesome icons.
+
+![](readme/contentful-fontawesome-field-1.JPG)
+
+![](readme/contentful-fontawesome-field-2.JPG)
+
 This project was bootstrapped with [Create Contentful App](https://github.com/contentful/create-contentful-app).
 
-## Available Scripts
+## Setup
 
-In the project directory, you can run:
+Install dependencies
 
-#### `npm start`
+```
+npm install
+```
 
-Creates or updates your app definition in contentful, and runs the app in development mode.
-Open your app to view it in the browser.
+Navigate to `public/index.html` and replace the fontawesome script with the one provided in your fontawesome dashboard
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+## Usage
 
-#### `npm run build`
+```bash
+# run dev server
+npm start
 
-Builds the app for production to the `build` folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
+# build for production
+npm run build
+```
 
 ## Libraries to use
 
 To make your app look and feel like Contentful use the following libraries:
 
-- [Forma 36](https://f36.contentful.com/) – Contentful's design system
-- [Contentful Field Editors](https://www.contentful.com/developers/docs/extensibility/field-editors/) – Contentful's field editor React components
+-   [Forma 36](https://f36.contentful.com/) – Contentful's design system
+-   [Contentful Field Editors](https://www.contentful.com/developers/docs/extensibility/field-editors/) – Contentful's field editor React components
 
 ## Learn More
 
